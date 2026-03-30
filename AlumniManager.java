@@ -87,15 +87,15 @@ public class AlumniManager {
         
         System.out.println("\nNAME       | SUB1       | SUB2       | SUB3       | CURRENTLY  | DOB        | PHONE");
         for (Alumni a : list) {
-            System.out.println(a); // [cite: 97, 99]
+            System.out.println(a); 
         }
     }
 
-    // Logic for searching by name [cite: 32, 100]
+    
     private static void searchAlumni() {
-        System.out.print("Name whose records are to be extracted: "); // [cite: 102]
+        System.out.print("Name whose records are to be extracted: "); 
         String searchName = scanner.nextLine();
-        System.out.print("ENTER SESSION: "); // [cite: 103]
+        System.out.print("ENTER SESSION: "); 
         String s = scanner.nextLine();
         ArrayList<Alumni> list = s.equals("2018-2019") ? session1819 : session1920;
 
